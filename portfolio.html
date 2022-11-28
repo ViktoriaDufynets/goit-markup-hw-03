@@ -3,48 +3,69 @@
   <head>
     <meta charset="utf-8" />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Page Header -->
     <header>
-      <a href="/">WEBSTUDIO</a>
+      <a class="logo" href="/"><span>WEB</span>STUDIO</a>
       <nav>
         <!-- Navigation to other pages -->
         <ul>
-          <li><a href="/studio">Studio</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/contact">Contacts</a></li>
+          <li><a class="header-links" href="/studio">Studio</a></li>
+          <li>
+            <a class="header-links" href="portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="header-links" href="/contact">Contacts</a></li>
         </ul>
       </nav>
       <!-- Contacts list -->
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <ul class="contacts">
+        <li>
+          <a class="contact" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contact" href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
       </ul>
     </header>
     <main>
       <!-- Offer list -->
-      <div>
-        <ul class="buttons">
-          <li class="button">
-            <button type="button" class="button">All</button>
+      <section>
+        <ul class="filters">
+          <li>
+            <button class="button-second" type="button"><p>All</p></button>
           </li>
-          <li class="button">
-            <button type="button" class="button">Web site</button>
+          <li>
+            <button class="button-second" type="button"><p>Web site</p></button>
           </li>
-          <li class="button">
-            <button type="button" class="button">App</button>
+          <li>
+            <button class="button-second" type="button"><p>App</p></button>
           </li>
-          <li class="button">
-            <button type="button" class="button">Design</button>
+          <li>
+            <button class="button-second" type="button"><p>Design</p></button>
           </li>
-          <li class="button">
-            <button type="button" class="button">Marketing</button>
+          <li>
+            <button class="button-second" type="button">
+              <p>Marketing</p>
+            </button>
           </li>
         </ul>
-      </div>
+      </section>
       <!-- What the company offers -->
-      <section>
+      <section class="portfolio">
         <ul class="cards">
           <li class="card">
             <img
@@ -53,7 +74,7 @@
               alt="Bank app mobile screens"
               width="360"
             />
-            <h3 class="card-title">Banking App Interface Concept</h3>
+            <h3 class="cardtitle">Banking App Interface Concept</h3>
             <a class="link" target="_blank" href="">App</a>
           </li>
           <li class="card">
@@ -72,7 +93,7 @@
               alt="Laptop + mobile with the same app screen"
               width="360"
             />
-            <h3 class="card-title">Meditaion App</h3>
+            <h3 class="card-title">Meditation App</h3>
             <a class="link" target="_blank" href="">App</a>
           </li>
           <li class="card">
@@ -141,8 +162,8 @@
     <footer>
       <!-- Company address -->
       <address>
-        <a href="/">WEBSTUDIO</a>
-        <p>
+        <a class="logo1" href="/"><span>WEB</span>STUDIO</a>
+        <p class="add">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
         </p>
