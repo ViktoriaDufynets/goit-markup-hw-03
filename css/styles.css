@@ -4,9 +4,6 @@ body {
 }
 .header-links {
         text-decoration: none;
-        width: 48px;
-        height: 24px;
-        font-style: normal;
         font-weight: 600;
         font-size: 16px;
         line-height: 1.5;   
@@ -16,9 +13,6 @@ body {
 .contacts .contact {
         text-decoration: none;   
         color: #434455;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -29,17 +23,11 @@ body {
     color: #4D5AE5;
 }
 h1 {
-        position: absolute;
-        width: 492px;
-        height: 120px;
-        left: 474px;
-        top: 180px;
     /* Header 1 */
         font-style: normal;
         font-weight: 600;
         font-size: 56px;
         line-height: 1.07;
-        text-align: center;
         letter-spacing: 0.02em;
         color: #FFFFFF;
 }
@@ -60,7 +48,7 @@ h1 {
 .button-first:active {
     background: #404BBF;
 }
-.button-first p {
+.button-first {
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -78,21 +66,16 @@ h2 {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        color: #2E2F42;
 }
-.ourteam h3{
-        width: 127px;
-        height: 24px;
-        font-style: normal;
+.team-title{
         font-weight: 600;
         font-size: 20px;
         line-height: 1.2;
-        text-align: center;
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
-.ourteam p {
-        font-style: normal;
-        font-weight: 400;
+.team-job {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -100,9 +83,6 @@ h2 {
 }
 .columns h3 {
         text-decoration: none;
-        width: 264px;
-        height: 24px;
-        font-style: normal;
         font-weight: 600;
         font-size: 20px;
         line-height: 1.2;
@@ -111,10 +91,6 @@ h2 {
 }
 .columns p {
         text-decoration: none;
-        width: 264px;
-        height: 72px;
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -155,8 +131,6 @@ span {
         color: blue;
 }
 .add {
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         color: #E7E9FC;
@@ -170,14 +144,8 @@ span {
         align-items: flex-start;
         padding: 0px;
         gap: 24px;
-    
-        position: absolute;
-        width: 586px;
-        height: 48px;
-        left: 427px;
-        top: 168px;
 }
-.button-second {
+.filter-type {
         box-sizing: border-box;
         cursor: pointer;
         display: flex;
@@ -191,16 +159,13 @@ span {
         border: 1px solid #E7E9FC;
         border-radius: 4px;
 }
-.filters .button-second:hover {
+.filters .filter-type:hover {
     color: #FFFFFF;
 }
 .cards .card .link:focus {
     color: #4D5AE5;
 }
-ul li button {
-        width: 68px;
-        height: 24px;
-        font-style: normal;
+.filter-type {
         font-weight: 600;
         font-size: 16px;
         line-height: 1.5;
@@ -211,8 +176,6 @@ ul li button {
         color: #4D5AE5;
 }
 .portfolio .card p {
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -220,9 +183,6 @@ ul li button {
 }
 .portfolio .card h3 {
         text-decoration: none;
-        width: 291px;
-        height: 24px;    
-        font-style: normal;
         font-weight: 600;
         font-size: 20px;
         line-height: 1.2;
@@ -230,10 +190,7 @@ ul li button {
         color: #2E2F42;
 }
 .portfolio .card a {
-        width: 75px;
-        height: 24px;
-        font-style: normal;
-        font-weight: 400;
+        text-decoration: none;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
