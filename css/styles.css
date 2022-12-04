@@ -367,7 +367,7 @@ span {
 .cards .card .link:focus {
     color: #4D5AE5;
 }
-.link {
+.link-tab {
         padding-top: 32px;
         padding-right: 53px;
         padding-left: 16px;
