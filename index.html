@@ -3,25 +3,29 @@
   <head>
     <meta charset="utf-8" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <!-- Page Header -->
-    <header>
+    <header class="container-one" class="page-header">
       <a class="logo" href="/"><span>WEB</span>STUDIO</a>
       <nav>
         <!-- Navigation to other pages -->
-        <ul>
+        <ul class="header">
           <li><a class="header-links" href="/studio">Studio</a></li>
           <li>
             <a class="header-links" href="portfolio.html">Portfolio</a>
@@ -41,36 +45,39 @@
         </li>
       </ul>
     </header>
+
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button class="button-first" type="button">Order Service</button>
-      </section>
-      <section class="sectionone">
+      <div class="container">
+        <section class="box-title">
+          <h1 class="page-title">Effective Solutions for Your Business</h1>
+          <button class="button-first" type="button">Order Service</button>
+        </section>
+      </div>
+      <section class="container-one">
         <!-- Company Strategies -->
         <ul class="columns">
-          <li>
+          <li class="cards-set">
             <h3>Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="cards-set">
             <h3>Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="cards-set">
             <h3>Diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="cards-set">
             <h3>Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
@@ -81,87 +88,91 @@
       </section>
       <section>
         <!-- Company Aim -->
-        <h2>What Are We Doing</h2>
-        <ul class="columns">
-          <li>
-            <a class="link" target="_blank" href="https://goit.global">
-              <img
-                src="images/3f1205d1d2bc99a08f2351d49f36efdb.jpg"
-                alt="grahp monitoring"
-                width="360"
-              />
-            </a>
-          </li>
-          <li>
-            <a class="link" target="_blank" href="https://goit.global1">
-              <img
-                src="images/3c4c4fcb2a83e793cae5e43b6e5c5118.jpg"
-                alt="mobile apps"
-                width="360"
-              />
-            </a>
-          </li>
-          <li>
-            <a class="link" target="_blank" href="https://goit.global2">
-              <img
-                src="images/abef81a74efa88a3d978cf41b50436ff.jpg"
-                alt="device symchromization"
-                width="360"
-              />
-            </a>
-          </li>
-        </ul>
+        <h2 class="container">What Are We Doing</h2>
+        <div class="container-one">
+          <ul class="pictures">
+            <li class="picture">
+              <a class="link" target="_blank" href="https://goit.global">
+                <img
+                  src="images/Rectangle 710.jpg"
+                  alt="grahp monitoring"
+                  width="360"
+                />
+              </a>
+            </li>
+            <li class="picture">
+              <a class="link" target="_blank" href="https://goit.global1">
+                <img
+                  src="images/Rectangle 712.jpg"
+                  alt="mobile apps"
+                  width="360"
+                />
+              </a>
+            </li>
+            <li class="picture">
+              <a class="link" target="_blank" href="https://goit.global2">
+                <img
+                  src="images/Rectangle 711.jpg"
+                  alt="device symchromization"
+                  width="360"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
+      <section class="container-team">
         <!-- Company team -->
         <h2>Our Team</h2>
-        <ul class="team-members">
-          <li class="team">
-            <img
-              class="team-image"
-              src="images/27d7cc162dfead836063691cf04a58cf.jpg"
-              alt="Product Designer team member photo"
-              width="264"
-            />
-            <h3 class="team-title">Mark Guerrero</h3>
-            <p class="team-job">Product Designer</p>
-          </li>
-          <li class="team">
-            <img
-              class="team-image"
-              src="images/8a9539bd306a71f0180d4ac75766361e.jpg"
-              alt="Frontend Developer team member photo"
-              width="264"
-            />
-            <h3 class="team-title">Tom Ford</h3>
-            <p class="team-job">Frontend Developer</p>
-          </li>
-          <li class="team">
-            <img
-              class="team-image"
-              src="images/210eea8d1f5ef1a5b4db4f62aba5e8e9.jpg"
-              alt="Marketing team member photo"
-              width="264"
-            />
-            <h3 class="team-title">Camila Garcia</h3>
-            <p class="team-job">Marketing</p>
-          </li>
-          <li class="team">
-            <img
-              class="team-image"
-              src="images/c6daee5d9dff1c4f03f226cbaec0f164.jpg"
-              alt="UI Designer team member photo"
-              width="264"
-            />
-            <h3 class="team-title">Daniel Wilson</h3>
-            <p class="team-job">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container-one">
+          <ul class="team-members">
+            <li class="team">
+              <img
+                class="team-image"
+                src="images/img111.jpg"
+                alt="Product Designer team member photo"
+                width="264"
+              />
+              <h3 class="team-title">Mark Guerrero</h3>
+              <p class="team-job">Product Designer</p>
+            </li>
+            <li class="team">
+              <img
+                class="team-image"
+                src="images/img222.jpg"
+                alt="Frontend Developer team member photo"
+                width="264"
+              />
+              <h3 class="team-title">Tom Ford</h3>
+              <p class="team-job">Frontend Developer</p>
+            </li>
+            <li class="team">
+              <img
+                class="team-image"
+                src="images/img333.jpg"
+                alt="Marketing team member photo"
+                width="264"
+              />
+              <h3 class="team-title">Camila Garcia</h3>
+              <p class="team-job">Marketing</p>
+            </li>
+            <li class="team">
+              <img
+                class="team-image"
+                src="images/img444.jpg"
+                alt="UI Designer team member photo"
+                width="264"
+              />
+              <h3 class="team-title">Daniel Wilson</h3>
+              <p class="team-job">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer>
+    <footer class="container">
       <!-- Company address -->
-      <address>
+      <address class="footer">
         <a class="logo1" href="/"><span>WEB</span>STUDIO</a>
         <p class="add">
           Increase the flow of customers and sales for your business with

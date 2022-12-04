@@ -3,21 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <!-- Page Header -->
-    <header>
+    <header class="container-one">
       <a class="logo" href="/"><span>WEB</span>STUDIO</a>
       <nav>
         <!-- Navigation to other pages -->
@@ -43,121 +47,127 @@
     </header>
     <main>
       <!-- Offer list -->
-      <ul class="filters">
-        <li>
-          <button class="filter-type" type="button">All</button>
-        </li>
-        <li>
-          <button class="filter-type" type="button">Web site</button>
-        </li>
-        <li>
-          <button class="filter-type" type="button">App</button>
-        </li>
-        <li>
-          <button class="filter-type" type="button">Design</button>
-        </li>
-        <li>
-          <button class="filter-type" type="button">Marketing</button>
-        </li>
-      </ul>
-      <!-- What the company offers -->
-      <section class="portfolio">
-        <ul class="cards">
-          <li class="card">
-            <img
-              class="card-image"
-              src="images/img.jpg"
-              alt="Bank app mobile screens"
-              width="360"
-            />
-            <h3 class="cardtitle">Banking App Interface Concept</h3>
-            <a class="link" target="_blank" href="">App</a>
+      <div class="container-one">
+        <ul class="filters">
+          <li>
+            <button class="filter-type" type="button">All</button>
           </li>
-          <li class="card">
-            <p>
-              14 Stylish and User-Friendly App Design Concepts · Task Manager
-              App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-              Storage App
-            </p>
-            <h3 class="card-title">Cashless Payment</h3>
-            <a class="link" target="_blank" href="">Marketing</a>
+          <li>
+            <button class="filter-type" type="button">Web site</button>
           </li>
-          <li class="card">
-            <img
-              class="card-image"
-              src="images/e50ced3d0393c11e44521b1b3db0e698.jpg"
-              alt="Laptop + mobile with the same app screen"
-              width="360"
-            />
-            <h3 class="card-title">Meditation App</h3>
-            <a class="link" target="_blank" href="">App</a>
+          <li>
+            <button class="filter-type" type="button">App</button>
           </li>
-          <li class="card">
-            <img
-              class="card-image"
-              src="images/d18e2fcd7407be4fb82793a09787ee96.jpg"
-              alt="Car driver holds the steering wheel"
-              width="360"
-            />
-            <h3 class="card-title">Taxi Service</h3>
-            <a class="link" target="_blank" href="">Marketing</a>
+          <li>
+            <button class="filter-type" type="button">Design</button>
           </li>
-          <li class="card">
-            <img
-              class="card-image"
-              src="images/00a83738358588a617c27bd70f0fa584.jpg"
-              alt="Mobile screen illustrations"
-              width="360"
-            />
-            <h3 class="card-title">Screen Illustrations</h3>
-            <a class="link" target="_blank" href="">Design</a>
-          </li>
-          <li class="card">
-            <img
-              class="card-image"
-              src="images/4fedb8830414a7d0c38e927b6d526bec.jpg"
-              alt="Girl listen to music on mobile"
-              width="360"
-            />
-            <h3 class="card-title">Online Courses</h3>
-            <a class="link" target="_blank" href="">Marketing</a>
-          </li>
-          <li class="card">
-            <img
-              class="card-image"
-              src="images/e27a138c59d1c297e69a327795d66497.jpg"
-              alt="Instagram Stories screens"
-              width="360"
-            />
-            <h3 class="card-title">Instagram Stories Concept</h3>
-            <a class="link" target="_blank" href="">Design</a>
-          </li>
-          <li class="card">
-            <img
-              class="card-image"
-              src="images/f32515035c8e771518f60f28dc217040.jpg"
-              alt="Woman carries bag with organic food"
-              width="360"
-            />
-            <h3 class="card-title">Organic Food</h3>
-            <a class="link" target="_blank" href="">Web Site</a>
-          </li>
-          <li class="card">
-            <img
-              class="card-image"
-              src="images/f2c98e55cdcba1d1ee6dc6a895cefc68.jpg"
-              alt="Pouring milk into cup with coffee"
-              width="360"
-            />
-            <h3 class="card-title">Fresh Coffee</h3>
-            <a class="link" target="_blank" href="">Web Site</a>
+          <li>
+            <button class="filter-type" type="button">Marketing</button>
           </li>
         </ul>
-      </section>
+      </div>
+      <!-- What the company offers -->
+      <div class="container-one">
+        <section class="portfolio">
+          <ul class="cards">
+            <li class="card">
+              <img
+                class="card-image"
+                src="images/imgone.jpg"
+                alt="Bank app mobile screens"
+                width="360"
+              />
+              <h3 class="cardtitle">Banking App Interface Concept</h3>
+              <a class="link" target="_blank" href="">App</a>
+            </li>
+            <li class="card">
+              <div class="conteiner-card">
+                <p class="wrapped-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <h3 class="card-title">Cashless Payment</h3>
+              <a class="link" target="_blank" href="">Marketing</a>
+            </li>
+            <li class="card">
+              <img
+                class="card-image"
+                src="images/imgtwo.jpg"
+                alt="Laptop + mobile with the same app screen"
+                width="360"
+              />
+              <h3 class="card-title">Meditation App</h3>
+              <a class="link" target="_blank" href="">App</a>
+            </li>
+            <li class="card">
+              <img
+                class="card-image"
+                src="images/imgtr.jpg"
+                alt="Car driver holds the steering wheel"
+                width="360"
+              />
+              <h3 class="card-title">Taxi Service</h3>
+              <a class="link" target="_blank" href="">Marketing</a>
+            </li>
+            <li class="card">
+              <img
+                class="card-image"
+                src="images/imgfo.jpg"
+                alt="Mobile screen illustrations"
+                width="360"
+              />
+              <h3 class="card-title">Screen Illustrations</h3>
+              <a class="link" target="_blank" href="">Design</a>
+            </li>
+            <li class="card">
+              <img
+                class="card-image"
+                src="images/imgfi.jpg"
+                alt="Girl listen to music on mobile"
+                width="360"
+              />
+              <h3 class="card-title">Online Courses</h3>
+              <a class="link" target="_blank" href="">Marketing</a>
+            </li>
+            <li class="card">
+              <img
+                class="card-image"
+                src="images/imgse.jpg"
+                alt="Instagram Stories screens"
+                width="360"
+              />
+              <h3 class="card-title">Instagram Stories Concept</h3>
+              <a class="link" target="_blank" href="">Design</a>
+            </li>
+            <li class="card">
+              <img
+                class="card-image"
+                src="images/imgsev.jpg"
+                alt="Woman carries bag with organic food"
+                width="360"
+              />
+              <h3 class="card-title">Organic Food</h3>
+              <a class="link" target="_blank" href="">Web Site</a>
+            </li>
+            <li class="card">
+              <img
+                class="card-image"
+                src="images/imgei.jpg"
+                alt="Pouring milk into cup with coffee"
+                width="360"
+              />
+              <h3 class="card-title">Fresh Coffee</h3>
+              <a class="link" target="_blank" href="">Web Site</a>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
-    <footer>
+    <footer class="container">
       <!-- Company address -->
-      <address>
+      <address class="footer">
         <a class="logo1" href="/"><span>WEB</span>STUDIO</a>
         <p class="add">
           Increase the flow of customers and sales for your business with
