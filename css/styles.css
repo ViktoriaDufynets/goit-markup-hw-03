@@ -81,14 +81,14 @@ body {
 
 .contacts {
         display: flex;
-        justify-content: space-between;
-        padding-top: 0;
         margin-top: 0;
         margin-bottom: 0;
+        padding-left: 0;
         gap: 40px;
 }
-.contacts .contact {
 
+
+.contacts .contact {
         text-decoration: none;   
         color: #434455;
         line-height: 1.5;
